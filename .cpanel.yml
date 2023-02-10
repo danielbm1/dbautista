@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/d31d5ir3b3ob/public_html/pp.dbautista.com.mx
+    - /bin/cp index.html $DEPLOYPATH
