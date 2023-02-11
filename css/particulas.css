@@ -18,7 +18,14 @@
 /* Media query */
 @media screen and (max-aspect-ratio: 597/916) {
 	.pieces {
-		width: 80vw;
-		height: 122.75vw;
+		width: 85vw !important;
+		height: 122.75vw !important;
+	}
+}
+
+@media and (max-aspect-ratio: 300/596) {
+  .pieces {
+		width: 85vw !important;
+		height: 122.75vw !important;
 	}
 }

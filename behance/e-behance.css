@@ -14,7 +14,7 @@
 	bottom: calc(100% + 0.75em);
 	right: 0;
 	font-size: 0.65em;
-	color: #484848;
+	color: #FFFFFF;
 }
 
 .pater__img {
@@ -63,24 +63,25 @@
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
+		height: 45px;
 		width: 100%;
 		max-width: none;
 		padding: 0.5em 1em;
 		text-align: left;
 		pointer-events: auto;
-		background: rgba(63, 57, 57, 0.43);
+		background: rgba(63, 57, 57, 0.20);
 	}
 	.pater::before {
-		display: none;
+    	left: 1.7em;
 	}
 	.pater__img {
 		flex: none;
-		width: 80px;
+		width: 100px !important;
 		margin: 0;
 	}
 	.pater__title {
 		font-size: 0.75em;
-		padding: 0 0 0 0.5em;
+		padding: 0 0 0 1em !important;
 	}
 	.pater__desc {
 		display: none;
@@ -88,4 +89,17 @@
 	.pater br {
 		display: none;
 	}
+	.adiseno::after {
+    top: 80px !important;
+    left: 21px !important;
+    }
+}
+
+.adiseno::after {
+	content: 'FINALIST iN:';
+    position: fixed;
+    top: 110px;
+    left: 31px;
+    font-size: 0.65em;
+    color: #FFFFFF;
 }
